@@ -1,0 +1,138 @@
+﻿body {
+	font:13px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background:transparent url(../images/black-bg.png) repeat center 0;
+	color: #333;
+}
+
+.body-inside{
+	background:#D8DBE0 url(../images/patterns/bg_pattern_01.png) repeat;
+}
+
+html, body {
+	height: 100%;
+}
+a, a:link, a:visited{
+	color:#ff0c5b; 
+	outline:none;
+}
+a:hover{
+	color:#960031;
+}
+:focus, a:focus{
+	outline:none;
+}
+:active, a:active{
+	outline:none;
+}
+:focus{
+	-moz-outline-style:none;
+}
+::selection{
+	background-color:#ff0c5b;
+	color:#fff;	
+}
+::-moz-selection{
+	background-color:#ff0c5b;
+	color:#fff;
+}
+
+hr.separate{
+	border:none;
+	background: transparent url(../images/separate_bg.png) 0 0  repeat-x;
+	height:9px;
+	width:100%;
+	margin-top:0;
+	margin-bottom:25px;
+}
+
+strong{
+	
+}
+
+table{
+	
+}
+
+table th{
+	
+}
+
+/* heading */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	margin-bottom: 15px;
+	font-size: 100%;
+	color:#363D47;
+	text-shadow:0 1px 0 #f2f2f2;
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+	font-size: 25px;
+	line-height:25px;
+}
+h2 {
+	font-size: 23px;
+	line-height:23px;
+}
+h3 {
+	font-size: 21px;
+	line-height:21px;
+}
+h4 {
+	font-size: 19px;
+	line-height:19px;
+}
+h5 {
+	font-size: 17px;
+	line-height:17px;
+}
+h6 {
+	font-size: 15px;
+	line-height:15px;
+}
+h2 a, h2 a:link, h2 a:visited,
+h3 a, h3 a:link, h3 a:visited,
+h4 a, h4 a:link, h4 a:visited,
+h5 a, h5 a:link, h5 a:visited,
+h6 a, h6 a:link, h6 a:visited{
+	color:#363D47;	
+}
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover{
+	color:#960031;
+}
+
+p{
+	margin-bottom:25px;
+}
+
+/*** quotes **/
+blockquote{
+	border-left:5px solid #343434;
+	padding-left:15px;
+}
+blockquote p{
+	font-family:Georgia,"Times New Roman",Times,serif;
+	font-style:italic;
+	color:#555;
+	margin:0;
+}
+
+blockquote.quote_left{
+	float:left;
+	width:30%;
+	margin:5px 20px 10px 0;
+}
+blockquote.quote_right{
+	float:right;
+	width:30%;
+	margin:5px 0 10px 20px;
+}
+strong{
+	color:#222;
+	font-weight:bold;
+}
